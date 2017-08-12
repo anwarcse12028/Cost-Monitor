@@ -1,0 +1,54 @@
+<resources>
+    <string name="CostMonitor">CostMonitor</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Change Background Color</string>
+    <string name="category_name">Category</string>
+    <string name="identifier">Identifier</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="budget">Budget</string>
+
+
+    <string-array name="lists">
+        <item>Item One</item>
+        <item>Item Two</item>
+        <item>Item Three</item>
+        <item>Item Four</item>
+        <item>Item Five</item>
+
+    </string-array>
+    <string-array name="Member_names">
+        <item>Robert</item>
+        <item>Shani</item>
+        <item>Maddi</item>
+        <item>Kate</item>
+    </string-array>
+
+    <string-array name="profile_pics">
+        <item>drawable/robert</item>
+        <item>drawable/shadi</item>
+        <item>drawable/ambot</item>
+        <item>drawable/lipatko</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Work</item>
+        <item>Gym</item>
+        <item>Busy</item>
+        <item>Mus.on</item>
+    </string-array>
+
+    <string-array name="colors">
+        <item>red</item>
+        <item>yellow</item>
+        <item>orange</item>
+        <item>blue</item>
+        <item>green</item>
+        <item>white</item>
+        <item>pink</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

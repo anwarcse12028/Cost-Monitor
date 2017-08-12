@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="Edit Text"
+        android:summary="set username"
+        android:key="user_name">
+
+    </EditTextPreference>
+
+    <SwitchPreference
+        android:title="Switch Preference"
+        android:key="switch"
+        android:summary="Switch False">
+
+    </SwitchPreference>
+
+    <SwitchPreference
+        android:key="switch_active"
+        android:summary="this switch is active"
+        android:defaultValue="true"
+        android:title="Switch Checked">
+
+    </SwitchPreference>
+
+    <ListPreference
+        android:entryValues="@array/lists"
+        android:entries="@array/lists"
+        android:title="List Preferences"
+        android:key="list_preferences"
+        android:summary="this is list">
+
+    </ListPreference>
+
+    <ListPreference
+        android:entryValues="@array/lists"
+        android:entries="@array/lists"
+        android:title="List with Default Value"
+        android:key="list_with_default_value"
+        android:summary="this is list">
+
+    </ListPreference>
+
+</PreferenceScreen>
